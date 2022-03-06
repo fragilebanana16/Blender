@@ -1,6 +1,11 @@
 # Draw names with object in grid format
 import bpy
 import numpy as np
+
+# delete all each time run scripts
+bpy.ops.object.select_all(action="SELECT")
+bpy.ops.object.delete(use_global=False)
+
 # red green yellow
 grid = np.zeros((6,11), dtype=int)
 # H part(0 for empty, 1 for H color, 2 for R color, 3 for T color)
