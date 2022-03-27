@@ -6,6 +6,9 @@
 
 - First apply the material to one of your objects. Select all the other objects. Make sure that the initial object you gave the material to is active (Lighter pink) Hit Ctrl+L to bring up the links menu. Choose Materials.
 
+###### 带纹理导出fbx
+导出fbx时右侧选项Path Mode->Copy，右边Emmbed Texture选上
+
 
 #### 脚本：
 
